@@ -11,7 +11,6 @@
 / {
     macros {
         tog_bt0: tog_bt0 {
-            label = "tog_bt0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
 			wait-ms = <40>;
@@ -21,7 +20,6 @@
                 ;
         };
         tog_bt1: tog_bt1 {
-            label = "tog_bt1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
 			wait-ms = <40>;
@@ -31,7 +29,6 @@
                 ;
         };
 		zoom_in: zoom_in {
-            label = "zoom_in";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
