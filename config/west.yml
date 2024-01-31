@@ -5,7 +5,7 @@ manifest:
     - name: electronicmaterialsoffice
       url-base: https://github.com/electronicmaterialsoffice
   projects:
-    - name: zmkfirmware
+    - name: zmk
       remote: electronicmaterialsoffice
       revision: main
       import: app/west.yml
